@@ -10,7 +10,7 @@
             <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
                 <div class="flex justify-between items-center p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
                     <h2 class="">All Roles
-                        <span class="bg-blue-500 text-white rounded px-1 text-xs py-0.5">10</span>
+                        <span class="bg-blue-500 text-white rounded px-1 text-xs py-0.5">{{$roles->count()}}</span>
                     </h2>
                     <a href="{{ route('roles.create') }}">
                         <button type="button"
